@@ -14,3 +14,6 @@ vim.keymap.set('n', '<leader>bp', '<cmd>bp<CR>', { desc = 'Previous Buffer' })
 vim.keymap.set('n', '<leader>ml', '<cmd>SessionManager load_session<CR>', { desc = 'Load Session' })
 vim.keymap.set('n', '<leader>ms', '<cmd>SessionManager save_current_session<CR>', { desc = 'Save Session' })
 vim.keymap.set('n', '<leader>md', '<cmd>SessionManager delete_session<CR>', { desc = 'Delete Session' })
+
+-- standard keymaps
+vim.keymap.set({ 'n', 'v' }, '<leader>q', '<cmd>qa<CR>', { desc = '[Q]uit All' })
